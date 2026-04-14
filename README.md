@@ -88,7 +88,8 @@ python -m streamlit run app.py
 `
 http://localhost:8501
 ```
-##  Features
+---
+###  Features
 Distributed system simulation
 Multiple sites with local WFG
 Edge-Chasing deadlock detection
@@ -96,27 +97,27 @@ Real-time probe logging
 Interactive UI using Streamlit
 Graph visualization using NetworkX
 
-##  Advantages
+###  Advantages
 * Demonstrates real-world distributed deadlock detection
 * Easy visualization of complex dependencies
 * Modular and scalable architecture
 
-##  Limitations
+###  Limitations
 * Random simulation (not deterministic)
 * Does not include resource allocation graphs
 * Limited to small-scale systems
 
-##  Future Enhancements
+###  Future Enhancements
 * Highlight deadlock cycle in graph
 * Add resource-level modeling
 * Implement other detection algorithms
 * Improve UI with animations
 
-##  Conclusion
+###  Conclusion
 This project successfully demonstrates distributed deadlock detection using the Wait-For Graph model and Edge-Chasing algorithm. The integration of SimPy and Streamlit enables both simulation and visualization of complex distributed interactions. The system effectively detects deadlocks through probe propagation and provides a clear graphical representation, making it useful for understanding distributed system behavior.
 
-##  GitHub Repository
+###  GitHub Repository
 https://github.com/Madhumitha154-create/distributed-deadlock-detection
 
-## Video link
+### Video link
 https://drive.google.com/file/d/1YIv9a_LDaDL5mb5jP_s4gSnxoKAdbrTd/view?usp=drive_link
