@@ -86,9 +86,7 @@ python -m streamlit run app.py
 ```
 ### Step 3: Open in browser
 `
-http://localhost:8501
-```
----
+
 ###  Features
 Distributed system simulation
 Multiple sites with local WFG
